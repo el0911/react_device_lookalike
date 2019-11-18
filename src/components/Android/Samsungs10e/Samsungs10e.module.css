@@ -1,0 +1,67 @@
+.container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  
+  .smartphone{
+      position: relative;
+    width: 264.18px;
+    height: 537.4px;
+    margin: auto;
+    border: 5px black solid;
+  
+    border-radius: 36px;
+    z-index: 50;
+    }  
+
+
+
+    
+    /* The dot/camera ontop */
+    
+
+    .camera{
+        padding-top:9px;
+    }
+
+    .dot{
+          display: block;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background: #000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 220px;
+    }
+    
+      /* black space on top  */
+      .blackspacetop{
+        display: block;
+        width: 246px;
+        height: 13px;
+        background: #000;
+        margin-top: -4px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 9px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+      }
+
+      /* blackspace at the bottom */
+      .blackspacebottom{
+        display: block;
+    width: 246px;
+    height: 13px;
+    background: #000;
+    margin-top: 496px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 9px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+      }

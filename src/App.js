@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import IPhone11ProMax from './components/iOS/iPhone11/IPhone11ProMax';
+import Samsungs105G from './components/Android/Samsungs105G/Samsungs105G';
 
 function App() {
   return (
     <div >
-      <IPhone11ProMax></IPhone11ProMax>
-    
+      <Samsungs105G></Samsungs105G>
     </div>
   );
 }

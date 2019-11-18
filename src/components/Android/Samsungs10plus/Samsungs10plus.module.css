@@ -1,0 +1,83 @@
+.container{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.smartphone{
+    position: relative;
+  width: 264.18px;
+  height: 537.4px;
+  margin: auto;
+  border: 5px black solid;
+
+  border-radius: 36px;
+  z-index: 50;
+  }  
+
+
+
+  
+  /* The dot/camera ontop */
+  
+
+  .camera{
+    padding-top: 9px;
+    background: rgb(76, 75, 75);
+    border-radius: 10px;
+    height: 13px;
+    width: 45px;
+    display: block;
+    margin-left: 201px;
+    margin-top: 10px;
+
+  }
+
+  .dot{
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+    background: #000;
+    margin-top: -4px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 10px;;
+  }
+  .dot1{
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+    background: #000;
+    margin-top: -11px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 27px;
+}
+    /* black space on top  */
+    .blackspacetop{
+      display: block;
+      width: 240px;
+      height: 10px;
+      background: #000;
+      margin-top: -4px;
+      margin-bottom: 0px;
+      margin-right: 0px;
+      margin-left: 11px;
+      border-top-left-radius: 100%;
+      border-top-right-radius: 100%;
+    }
+
+    /* blackspace at the bottom */
+    .blackspacebottom{
+      display: block;
+      width: 240px;
+      height: 10px;
+      background: #000;
+      margin-top: 492px;
+      margin-bottom: 0px;
+      margin-right: 0px;
+      margin-left: 12px;
+      border-bottom-left-radius: 100%;
+      border-bottom-right-radius: 100%
+    }
