@@ -2,17 +2,17 @@ var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-  entry: './index.js',
+  entry: '../src/App.js',
   output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: 'index.js',
+    path: path.resolve(__dirname, 'src'),
+    filename: '.js',
     libraryTarget: 'commonjs2'
   },
   module: {
     rules: [
       {
         test: /\.js$/,
-        include: path.resolve(__dirname, 'src'),
+        include: path.resolve(__dirname, 'src/App.js'),
         exclude: /(node_modules|bower_components|build)/,
         use: {
           loader: 'babel-loader',
@@ -25,8 +25,7 @@ module.exports = {
         use : ExtractTextPlugin.extract({
             fallback : 'style-loader',
             use : [
-                'css-loader',
-                'sass-loader'
+                'css-loader'
             ]
         })
        },

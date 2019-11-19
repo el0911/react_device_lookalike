@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-import Samsungs105G from './components/Android/Samsungs105G/Samsungs105G';
+
+import Samsungs105G from '../lib/components/Android/Samsungs105G/Samsungs105G';
 
 function App() {
   return (
