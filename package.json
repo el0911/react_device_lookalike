@@ -2,13 +2,15 @@
   "name": "react-mobiledevices-lookalike",
   "version": "1.0.6",
   "private": false,
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "src/index.js",
   "files": [
-    "dist"
+    "src",
+    "src/lib",
+    "src/examples"
   ],
   "dependencies": {
     "basic": "^2.0.3",
+    "extract-text-webpack-plugin": "^3.0.2",
     "np": "^5.1.3",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
@@ -22,7 +24,7 @@
   },
   "peerDependencies": {},
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start ./webpack.config.js",
     "build-examples": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
