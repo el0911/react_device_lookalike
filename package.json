@@ -9,7 +9,8 @@
     "typings",
     "src",
     "src/lib",
-    "src/examples"
+    "src/examples",
+    "webpack.config.js"
   ],
   "peerDependencies": {
     "basic": "^2.0.3",

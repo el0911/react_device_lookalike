@@ -11,9 +11,9 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\(.*js|.*jsx)$/,
         include: path.resolve(__dirname, 'src/lib'),
-        exclude: /(node_modules|bower_components|build)/,
+        exclude: /(node_modules|bower_components)/,
         use: {
           loader: 'babel-loader',
           options: {
