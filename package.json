@@ -9,7 +9,7 @@
     "src/lib",
     "src/examples"
   ],
-  "dependencies": {
+  "peerDependencies": {
     "basic": "^2.0.3",
     "extract-text-webpack-plugin": "^3.0.2",
     "np": "^5.1.3",
@@ -23,7 +23,7 @@
       "@babel/preset-react"
     ]
   },
-  "peerDependencies": {},
+  "dependencies": {},
   "scripts": {
     "start": "react-scripts start ./webpack.config.js",
     "build-examples": "react-scripts build",
