@@ -1,6 +1,6 @@
 {
   "name": "react-mobiledevices-lookalike",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "private": false,
   "main": "src/index",
   "typings": "typings/index",
