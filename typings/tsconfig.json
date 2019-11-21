@@ -24,13 +24,13 @@
       "../../node_modules/@types"
   ]
   },
+ 
   "include": [
     "src",
     "index.d.ts"
   ],
   "exclude": [
-    "../../node_modules",
-    "../../typings"
+    "../../node_modules"
 ],
 
 }

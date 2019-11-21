@@ -3,8 +3,10 @@
   "version": "1.0.9",
   "private": false,
   "main": "src/index",
-  "typings": "src/index",
+  "typings": "typings/index",
   "files": [
+    "build",
+    "typings",
     "src",
     "src/lib",
     "src/examples"
@@ -26,10 +28,10 @@
   "dependencies": {},
   "scripts": {
     "start": "react-scripts start ./webpack.config.js",
-    "build-examples": "react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js"
+    "build:lib": "rm -rf build && NODE_ENV=production babel src/lib --out-dir build --copy-files --ignore __tests__,spec.js,test.js"
   },
   "eslintConfig": {
     "extends": "react-app"
