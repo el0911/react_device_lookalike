@@ -19,9 +19,15 @@
     "noEmit": true,
     "jsx": "react",
     "noImplicitAny": false,
+    
     "typeRoots": [
       "../../typings",
       "../../node_modules/@types"
+  ], 
+  "rootDirs": [
+    "js",
+    "jsx",
+    "typings"
   ]
   },
  
