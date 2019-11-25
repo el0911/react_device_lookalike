@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import devicelook from "./Samsungs105G.module.css";
 
 export default function Samsungs105G() {

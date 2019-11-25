@@ -2,6 +2,12 @@
 /// <reference types="react" />
 /// <reference types="react-dom" />
 
+declare module '*.js' {
+   
+  const src: string;
+  export default src;
+}
+
 
 declare module '*.jsx' {
    

@@ -1,0 +1,47 @@
+.body,html{
+    height: 100%;
+    background: linear-gradient( to right, rgb(143, 212, 212), rgb(255, 255, 25));
+}
+.content{
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+
+.title {
+    padding-top: 7em;
+    padding-bottom: 2em;
+    
+
+}
+
+.para{
+    padding-bottom: 2em;
+    font-size:15px ;
+}
+
+.button{
+    padding: 10px;
+    background: rgb(214, 214, 112);
+    border: none;
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.button:hover{
+    cursor:pointer;
+}
+.button1{
+    padding: 10px;
+    background: rgb(172, 212, 212);
+    border: none;
+    width: 91px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.button1:hover{
+    cursor:pointer;
+}
