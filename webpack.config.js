@@ -4,7 +4,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
   entry: 'src/index.js',
   output: {
-    path: path.resolve(__dirname, 'src'),
+    path: path.resolve(__dirname, 'build'),
     filename: 'index.js',
     libraryTarget: 'commonjs2'
   },
@@ -17,7 +17,11 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['env']
+            presets: ['react','env'],
+            plugins: [
+              require("@babel/plugin-transform-arrow-functions"),
+              require("@babel/plugin-transform-modules-commonjs")
+          ]
           }
         }
       }, {
