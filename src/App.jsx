@@ -1,7 +1,7 @@
 import React from 'react';
 import Customroutes from "./routes";
 
-function App() {
+export default function App() {
   return (
     <div >
      <Customroutes></Customroutes>
@@ -9,5 +9,3 @@ function App() {
   );
 }
 
-
-export default App;

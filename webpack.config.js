@@ -1,41 +1,57 @@
 var path = require('path');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
+
+
 
 module.exports = {
-  entry: 'src/index.js',
+  entry:path.resolve(__dirname, 'src/index.js'),
   output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: 'index.js',
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
     libraryTarget: 'commonjs2'
   },
   module: {
     rules: [
       {
-        test: /\(.*js|.*jsx)$/,
+        test: /\.*jsx$/,
         include: path.resolve(__dirname, 'src/lib'),
         exclude: /(node_modules|bower_components)/,
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['react','env'],
-            plugins: [
-              require("@babel/plugin-transform-arrow-functions"),
-              require("@babel/plugin-transform-modules-commonjs")
-          ]
+            presets: ['@babel/react', '@babel/preset-env']
+           
           }
         }
       }, {
         test: /\.*css$/,
-        use : ExtractTextPlugin.extract({
-            fallback : 'style-loader',
+        include: path.resolve(__dirname, 'src/lib'),
             use : [
-                'css-loader'
+              'style-loader','css-loader'
             ]
-        })
+       
        },
+       {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        include: path.resolve(__dirname, 'src'),
+        exclude: /node_modules/,
+        options: {
+          presets: ['@babel/react', '@babel/preset-env']
+         
+        }
+      },
+      {
+        test: /\.(png|jpg|gif|svg)$/,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]?[hash]'
+        }
+      }
+  
     ]
   },
   externals: {
     'react': 'commonjs ' 
-  }
+  },
+  
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import devicelook from "./iPhone11.module.css";
+import devicelook from "./IPhone11.module.css";
 
 
 export default function IPhone11Pro() {

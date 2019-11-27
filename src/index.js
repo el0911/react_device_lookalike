@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App.jsx';
+import Customroutes from "./routes";
 import * as serviceWorker from './serviceWorker';
+
+const App = () =>{
+    <div>
+        <Customroutes></Customroutes>
+    </div>
+}
 
 
 ReactDOM.render(<App/>, document.getElementById('root'));

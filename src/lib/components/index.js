@@ -11,33 +11,33 @@ export {Samsungs10e};
 import Samsungs10plus from './Samsungs10plus.jsx';
 export {Samsungs10plus};
 
-import IPhone66s7 from './IPhone66s7.jsx';
+import IPhone66s7 from './iOS/IPhone66s7/IPhone66s7.jsx';
 export {IPhone66s7};
 
 
-import IPhone6plus7plus from './IPhone6plus7plus.jsx';
+import IPhone6plus7plus from './iOS/IPhone6+_7+/IPhone6plus7plus.jsx';
 export {IPhone6plus7plus};
 
-import IPhone11 from './IPhone11.jsx';
+import IPhone11 from './iOS/IPhone11/IPhone11.jsx';
 export {IPhone11};
 
-import IPhone11Pro from './IPhone11Pro.jsx';
+import IPhone11Pro from './iOS/IPhone11/IPhone11Pro.jsx';
 export {IPhone11Pro};
 
-import IPhone11ProMax from './IPhone11ProMax.jsx';
+import IPhone11ProMax from './iOS/IPhone11/IPhone11ProMax.jsx';
 export {IPhone11ProMax};
 
-import IPhone8 from './IPhone8.jsx';
+import IPhone8 from './iOS/IPhone88plus/iPhone8.jsx';
 export {IPhone8};
 
 
-import IPhoneX from './IPhoneX.jsx';
+import IPhoneX from './iOS/IPhonex/IPhoneX.jsx';
 export {IPhoneX};
 
-import IPhoneXR from './IPhoneXR.jsx';
+import IPhoneXR from './iOS/IPhonex/IPhoneXR.jsx';
 export {IPhoneXR};
 
 
-import IPhoneXSMax from './IPhoneXSMax.jsx';
+import IPhoneXSMax from './iOS/IPhonex/IPhoneXSMax.jsx';
 export {IPhoneXSMax};
 
