@@ -23,21 +23,26 @@
     "reactstrap": "^8.1.1"
   },
   "dependencies": {
-   
     "css-loader": "^3.2.0",
     "file-loader": "^5.0.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.2.0",
+    "mdbreact": "^4.20.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.8.0",
+    "react-json-view": "^1.16.5",
+    "react-page-maker": "^1.1.25",
+    "react-redux": "^7.1.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "1.1.4",
     "style-loader": "^1.0.0",
     "webpack-dev-server": "^3.9.0"
   },
   "scripts": {
-    "start": "webpack-dev-server — mode development — open — hot",
-    "webpack": "webpack",
-    "dev": "npm run webpack -- --mode development --watch",
-    "build": "npm run webpack -- --mode production"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -59,7 +64,7 @@
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.4",
     "@babel/preset-react": "^7.7.4",
-     "@babel/plugin-transform-arrow-functions": "^7.7.4",
+    "@babel/plugin-transform-arrow-functions": "^7.7.4",
     "@babel/plugin-transform-modules-commonjs": "^7.7.4",
     "babel-loader": "^8.0.6",
     "webpack-cli": "^3.3.10"

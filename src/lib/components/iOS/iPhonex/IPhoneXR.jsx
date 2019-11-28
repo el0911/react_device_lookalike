@@ -1,5 +1,5 @@
 import React from 'react';
-import devicelook from "./IPhoneX.module.css";
+import devicelook from "./iPhoneX.module.css";
 
 
 export default function IPhoneXR() {

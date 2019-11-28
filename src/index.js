@@ -4,7 +4,7 @@ import Customroutes from "./routes";
 import * as serviceWorker from './serviceWorker';
 
 const App = () =>{
-    <div>
+    return <div>
         <Customroutes></Customroutes>
     </div>
 }
